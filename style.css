@@ -7,3 +7,7 @@
 nav a{
     text-decoration: none;
 }
+
+.animais-adocao, .contato {
+ visibility: hidden;
+}
