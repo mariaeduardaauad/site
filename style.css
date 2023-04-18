@@ -10,23 +10,27 @@ header {
     background: rgba(0, 0, 0, 0.7);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     position: fixed;
     z-index: 99;
   }
   
   header .logo {
-    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 900px;
   
   }
   
   header .logo img {
-    width: 190px;
+    width: 30%;
+    height: 15vh;
   }
   
   header .menu ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   
   }
@@ -41,8 +45,10 @@ header {
     text-transform: uppercase;
     color: white;
     transition: 0.5s ease;
+    font-weight: 450;
+    font-size: 1.1rem;
   }
   header .menu ul li a:hover {
-    color: #d9ff00;
+    color: #d4bc36;
   }
   
