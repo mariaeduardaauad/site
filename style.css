@@ -101,8 +101,84 @@ header {
     font-size: 1.2rem;
     padding: 5px;
   }
+  .container2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+    
+   
+   
+    
+  }
   
   #contato .lado-direito .container .mapa{
     width: 500px;
     height: 500px;
+    
+    
   }
+
+  #sobre-nos .content-contact .contact-left{
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+
+ #sobre-nos .container2 .lado-direito{
+  color: purple;
+  font-size: 155px;
+   margin-right: 50px;
+   width: 500px;
+   height: 500px;
+   
+   text-align: center;
+ } 
+ #sobre-nos .container2 .lado-direito p {
+  font-size: 1.3rem;
+  color: white;
+
+ }
+
+ #sobre-nos .container2 .centro {
+  color: purple;
+  font-size: 155px;
+  text-align: center;
+  margin-right: 50px;
+  width: 500px;
+  height: 500px;
+ 
+  text-align: center;
+  
+
+ }
+
+ #sobre-nos .container2 .centro p {
+  font-size: 1.3rem;
+  color: white;
+  
+ }
+
+ #sobre-nos .container2 .lado-esquerdo{
+  color: purple;
+  font-size: 155px;
+  width: 500px;
+  height: 500px;
+  
+  text-align: center;
+ }
+
+ #sobre-nos .container2 .lado-esquerdo p{
+  font-size: 1.3rem;
+  color: white;
+ }
+
+ #sobre-nos .container2 .missao, .visao, .valores{
+  color: #d4bc36;
+ } 
+
+ #sobre-nos .bg-sobrenos{
+  background-color: #7338b6;
+ }
+ 
