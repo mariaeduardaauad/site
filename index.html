@@ -5,177 +5,187 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="shortcut icon" href="image/icon_carro-removebg-preview.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scrollReveal.css">
 
     <title>MiAUdote</title>
 
 </head>
 
 <body>
+
     <header>
         <div class="logo">
-          <img src="imagem/logoo.png" alt="logo do nav">
+            <img src="imagem/logoo.png" alt="logo do nav">
         </div>
         <div class="menu">
-          <ul>
-            <li><a href="#Home">Inicio</a></li>
-            <li><a href="#about">Quero Adotar</a></li>
-            <li><a href="#port">Sobre Nós</a></li>
-            <li><a href="#contact">Contato</a></li>
-          </ul>
+            <ul>
+                <li><a href="#Home">Inicio</a></li>
+                <li><a href="#about">Quero Adotar</a></li>
+                <li><a href="#port">Sobre Nós</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
         </div>
-      </header>
+    </header>
 
     <main>
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/imagem/fotinho-carrosel.png" class="d-block w-100 " alt="primeira foto do carrosel ">
-                </div>
 
-
-
-
-
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-
-        <section id="animais-adocao" class="headline">
-            <div class="row mt-5">
-                <div class="col">
-                    <h2 class="display-6 text-center">ADOTE</h2>
-                </div>
-            <div class="container mt-5">
-                <div class="row">
-                    <div class="col">
-                        <div class="card" class="tagline">
-                            <img src="/imagem/james.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark">James</h5>
-                                <p class="card-text">Procurando por um amigo de quatro patas? Conheça James, um cachorro
-                                    carinhoso e leal que adora passar tempo com pessoas e outros cachorros.</p>
-                                <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
-                            </div>
-                        </div>
+        <section id=cabecalho class="area-0">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/imagem/fotinho-carrosel.png" class="d-block w-100 " alt="primeira foto do carrosel ">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-
-                    <div class="col">
-                        <div class="card" class="tagline">
-                            <img src="/imagem/cardgato.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark">Pantera</h5>
-                                <p class="card-text">Procurando por um gato independente e charmoso? Conheça Pantera, um
-                                    gato astuto com uma personalidade forte e com um espírito livre</p>
-                                <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col" >
-                        <div class="card" class="tagline">
-                            <img src="/imagem/card3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark">Castanha</h5>
-                                <p class="card-text">Conheça Castanha, uma cachorra de porte médio com uma personalidade
-                                    gentil e brincalhona. Ela está procurando por um lar onde possa ser amada e cuidada.
-                                </p>
-                                <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col" class="tagline">
-                        <div class="card">
-                            <img src="/imagem/gatinhi1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark">Pandora</h5>
-                                <p class="card-text">Pandora é uma gata preguiçosa e adorável que adora passar horas
-                                    cochilando ao sol. Ela está procurando por um lar tranquilo onde possa ser feliz e
-                                    confortável.</p>
-                                <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="row mt-5" class="tagline">
-                    <div class="col">
-                        <div class="card" >
-                            <img src="/imagem/gatinho.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark">Linho</h5>
-                                <p class="card-text">Procurando por um amigo felino? Conheça Linho, um gato curioso e
-                                    brincalhão que adora passar tempo com humanos e outros gatos se exibindo com as suas
-                                    brincadeiras</p>
-                                <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col" class="tagline">
-                        <div class="card" >
-                            <img src="/imagem/card2.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark">Bella</h5>
-                                <p class="card-text">Conheça Bella, uma cachorra de raça mista com uma personalidade
-                                    forte e
-                                    leal. Ela está pronta para encontrar um lar onde possa ser amada e cuidada.</p>
-                                <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col" class="tagline">
-                        <div class="card">
-                            <img src="/imagem/gatoviralata.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark">Nicolau</h5>
-                                <p class="card-text">Procurando por um gato independente e charmoso? Conheça Nicolau, um
-                                    gato astuto e cheio de personalidade que está esperando um lar para ter grandes
-                                    companhias</p>
-                                <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col" class="tagline">
-                        <div class="card" >
-                            <img src="/imagem/card4.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title text-dark">Apolo</h5>
-                                <p class="card-text">Se você está procurando por um cachorro para acompanhá-lo em suas
-                                    aventuras, Apolo é o companheiro perfeito. Ele é corajoso, alegre e cheio de
-                                    energia.
-                                </p>
-                                <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
         </section>
 
 
 
-        </div>
-        </div>
 
-        <section id="contato">
+        <section id="animais-adocao" class="area-1">
+            <div class="row mt-5">
+                <div class="col">
+                    <h2 class="display-6 text-center">ADOTE</h2>
+                </div>
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <img src="/imagem/james.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">James</h5>
+                                    <p class="card-text">Procurando por um amigo de quatro patas? Conheça James, um
+                                        cachorro
+                                        carinhoso e leal que adora passar tempo com pessoas e outros cachorros.</p>
+                                    <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="/imagem/cardgato.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">Pantera</h5>
+                                    <p class="card-text">Procurando por um gato independente e charmoso? Conheça
+                                        Pantera, um
+                                        gato astuto com uma personalidade forte e com um espírito livre</p>
+                                    <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="/imagem/card3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">Castanha</h5>
+                                    <p class="card-text">Conheça Castanha, uma cachorra de porte médio com uma
+                                        personalidade
+                                        gentil e brincalhona. Ela está procurando por um lar onde possa ser amada e
+                                        cuidada.
+                                    </p>
+                                    <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col" class="tagline">
+                            <div class="card">
+                                <img src="/imagem/gatinhi1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">Pandora</h5>
+                                    <p class="card-text">Pandora é uma gata preguiçosa e adorável que adora passar horas
+                                        cochilando ao sol. Ela está procurando por um lar tranquilo onde possa ser feliz
+                                        e
+                                        confortável.</p>
+                                    <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row mt-5">
+                        <div class="col">
+                            <div class="card">
+                                <img src="/imagem/gatinho.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">Linho</h5>
+                                    <p class="card-text">Procurando por um amigo felino? Conheça Linho, um gato curioso
+                                        e
+                                        brincalhão que adora passar tempo com humanos e outros gatos se exibindo com as
+                                        suas
+                                        brincadeiras</p>
+                                    <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="/imagem/card2.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">Bella</h5>
+                                    <p class="card-text">Conheça Bella, uma cachorra de raça mista com uma personalidade
+                                        forte e
+                                        leal. Ela está pronta para encontrar um lar onde possa ser amada e cuidada.</p>
+                                    <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="/imagem/gatoviralata.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">Nicolau</h5>
+                                    <p class="card-text">Procurando por um gato independente e charmoso? Conheça
+                                        Nicolau, um
+                                        gato astuto e cheio de personalidade que está esperando um lar para ter grandes
+                                        companhias</p>
+                                    <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="/imagem/card4.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">Apolo</h5>
+                                    <p class="card-text">Se você está procurando por um cachorro para acompanhá-lo em
+                                        suas
+                                        aventuras, Apolo é o companheiro perfeito. Ele é corajoso, alegre e cheio de
+                                        energia.
+                                    </p>
+                                    <a href="queroadotar.html" class="btn btn-outline-warning">Quero Adotar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+
+        <section id="sobre-nos" class="area-3">
+
+        </section>
+
+        <section id="contato" class="area-2">
             <div class="row">
                 <div class="col">
                     <h2 class="display-6 text-center">CONTATO</h2>
@@ -192,17 +202,7 @@
         </section>
 
     </main>
-
-
-	<script src="https://unpkg.com/scrollreveal@4"></script>
-	<script>
-    <script>
-        ScrollReveal({ reset: true });
-
-		ScrollReveal().reveal('.headline')
-		ScrollReveal().reveal('.tagline', { delay: 1000 })
-		ScrollReveal().reveal('.punchline', { delay: 2000 })
-	</script>
+    <script src="scrollReveal.js"></script>
 </body>
 
 <footer>
