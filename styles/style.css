@@ -225,7 +225,7 @@ margin-right: 7%;
 /* ===== footer ======*/
 
 .rodape{
-  height: 40vh;
+  height: 20vh;
   padding: 22px;
   border-top: 0.4px solid #FFF2E7;
   background-color: #7338b6;
@@ -240,12 +240,28 @@ margin-right: 7%;
 }
 
 .rodape .logo-rodape{
+  margin-top: 1%;
   width: 100%;
-  height: 10vh;
+  height: 5vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .rodape .logo-rodape .imagem-rodape{
-  width: 6%;
+  width: 5%;
+}
+
+.rodape .areas-footer  {
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 300%;
+}
+.rodape .areas-footer  a{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
 }
