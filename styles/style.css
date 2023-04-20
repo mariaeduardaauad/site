@@ -54,6 +54,8 @@ header .menu ul li a:hover {
   color: #d4bc36;
 }
 
+
+
 /* ==== contato ==== */
 #contato .container {
   width: 100%;
@@ -215,11 +217,18 @@ margin-right: 7%;
   
 }
 
+.bt-roxo{
+  border: 1px solid #7338b6;
+  color: #7338b6;
+}
+
 /* ===== footer ======*/
 
 .rodape{
+  height: 40vh;
   padding: 22px;
   border-top: 0.4px solid #FFF2E7;
+  background-color: #7338b6;
 }
 
 .titulo-rodape{
@@ -228,4 +237,15 @@ margin-right: 7%;
   font-size: 36px;
   font-weight: 400;
   color: white;
+}
+
+.rodape .logo-rodape{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rodape .logo-rodape .imagem-rodape{
+  width: 6%;
 }
