@@ -4,5 +4,8 @@
 [X] Imagem de destaque
 [X] Cards dos animais para adoção
 [] Sobre Nós
-[] Contato
+[X] Contato
 [] Footer
+
+# Arrumar o Sore-Nos com uma row, duas col-6
+
