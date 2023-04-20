@@ -161,7 +161,7 @@ margin-right: 7%;
 }
 
 #sobre-nos .container2 .lado-direito {
-  font-size: 155px;
+  font-size: 100px;
   margin-right: 50px;
   width: 500px;
   height: 500px;
@@ -170,13 +170,13 @@ margin-right: 7%;
 }
 
 #sobre-nos .container2 .lado-direito p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: white;
 
 }
 
 #sobre-nos .container2 .centro {
-  font-size: 155px;
+  font-size: 100px;
   text-align: center;
   margin-right: 50px;
   width: 500px;
@@ -188,13 +188,13 @@ margin-right: 7%;
 }
 
 #sobre-nos .container2 .centro p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: white;
 
 }
 
 #sobre-nos .container2 .lado-esquerdo {
-  font-size: 155px;
+  font-size: 100px;
   width: 500px;
   height: 500px;
 
@@ -202,7 +202,7 @@ margin-right: 7%;
 }
 
 #sobre-nos .container2 .lado-esquerdo p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: white;
 }
 
@@ -220,6 +220,13 @@ margin-right: 7%;
 .bt-roxo{
   border: 1px solid #7338b6;
   color: #7338b6;
+}
+
+
+
+.text-roxo{
+  color: #7338b6;
+
 }
 
 /* ===== footer ======*/
