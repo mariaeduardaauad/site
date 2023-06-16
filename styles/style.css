@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Rubik', sans-serif;
 }
 
 header {
@@ -51,6 +51,8 @@ header .menu ul li a {
   font-size: 1.1rem;
   justify-content: center;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 header .menu ul li a:hover {
@@ -149,6 +151,8 @@ header .menu ul li a:hover {
 color: white;
 font-size: 1.5rem;
 margin: 5%;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
 
 }
 
@@ -176,6 +180,9 @@ margin: 5%;
 #sobre-nos .container2 .lado-direito p {
   font-size: 1.3rem;
   color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
 
 }
 
@@ -194,6 +201,9 @@ margin: 5%;
 #sobre-nos .container2 .centro p {
   font-size: 1.3rem;
   color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
 
 }
 
@@ -208,6 +218,8 @@ margin: 5%;
 #sobre-nos .container2 .lado-esquerdo p {
   font-size: 1.3rem;
   color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 #sobre-nos .container2 .missao,
@@ -390,4 +402,70 @@ footer {
       grid-template-columns: repeat(1, 1fr);
       padding: 3rem 2rem;
   }
+}
+
+@media screen and (max-width: 426px) {
+  .foto-sobrenos{
+    width: 95%;
+    height: 50vh;
+    border-radius: 5%;
+  }
+  .col-6{
+    width: 100%;
+  }
+  .col-6 .text{
+    font-size: 1.1rem;
+  }
+
+
+  #sobre-nos .container2 {
+    height: 50vh;
+  }
+  
+  #sobre-nos .container2 .lado-direito{
+    font-size: 500%;
+    width: 33%;
+    height: 10vh;
+  }
+
+  #sobre-nos .container2 .lado-direito p {
+    font-size: 0px;
+  
+  
+  }
+  
+  #sobre-nos .container2 .centro {
+    font-size: 500%;
+    text-align: center;
+    margin-right: 50px;
+    width: 33%;
+    text-align: center;
+    height: 10vh;
+  
+  
+  }
+  
+  #sobre-nos .container2 .centro p {
+    font-size: 0px;
+  }
+  
+  #sobre-nos .container2 .lado-esquerdo {
+    font-size: 500%;
+    width: 33%;
+    height: 10vh;
+    
+  
+    text-align: center;
+  }
+  
+  #sobre-nos .container2 .lado-esquerdo p {
+    font-size:0px;
+  }
+  
+  #sobre-nos .container2 .missao,
+  .visao,
+  .valores {
+    color: #d4bc36;
+  }
+  #contato .
 }
