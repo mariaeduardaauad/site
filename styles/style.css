@@ -467,4 +467,12 @@ footer {
   .valores {
     color: #d4bc36;
   }
+
+  #contato .content-contact{
+    flex-direction: column;
+  }
+  #contato .lado-direito .container .mapa{
+    width: 0px;
+    height: 0px;
+  }
 }
