@@ -27,6 +27,7 @@
 
 .logo .logo-site{
   width: 50%;
+  padding-bottom: 3%;
 }
 .navigation ul{
   display: flex;
@@ -41,7 +42,16 @@
   text-decoration: none;
 }
 .navigation ul li a:hover{
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #7338b6;
+  color: #FFF;
+
+}
+.navigation .admin{
+  opacity: 0.2;
+}
+.navigation .admin:hover{
+  border-bottom: 3px solid #7338b6;
+  opacity: 0.5;
 }
 
 /* ==== contato ==== */
