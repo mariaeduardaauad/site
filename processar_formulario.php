@@ -1,40 +1,22 @@
 <?php
-// Recuperar os dados do formulário
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $celular = $_POST['celular'];
 $endereco = $_POST['endereco'];
 $cidade = $_POST['cidade'];
 $cep = $_POST['cep'];
-$genero =  $_POST['genero'];
+$genero =  $_POST['gender'];
 
 
-// Conectar ao banco de dados MySQL
-$servername = "localhost";
-$username = "root";
-$password = ""; // Coloque a senha do seu servidor MySQL, se houver
+$servidor_bd = "127.0.0.1";
+$usuario_bd = "root";
+$senha_bd = "";
+$banco_de_dados = "banco_cadastro";
 
-$conn = new mysqli($servername, $username, $password);
+$conexao = mysqli_connect($servidor_bd, $usuario_bd, $senha_bd, $banco_de_dados);
 
-// Verificar a conexão
-if ($conn->connect_error) {
-    die("Falha na conexão: " . $conn->connect_error);
-}
+$sql_inserir_usuario = "insert into usuario(Nome, Email, Celular, Endereco, Cidade, CEP, Genero) values ('$nome', '$email', '$celular', '$endereco', '$cidade', '$cep', '$genero')";
 
-// Selecionar o banco de dados
-$dbname = "dados_formulario";
-$conn->select_db($dbname);
+$um_usuario = mysqli_query($conexao, $sql_inserir_usuario);
 
-// Inserir os dados no banco de dados
-$sql = "INSERT INTO dados_formulario (nome, email, celular, endereco, cidade, cep, genero) 
-VALUES ('$nome', '$email', '$celular', '$endereco', '$cidade', '$cep', '$genero' )";
-
-if ($conn->query($sql) === TRUE) {
-    echo "Dados inseridos com sucesso!";
-} else {
-    echo "Erro ao inserir dados: " . $conn->error;
-}
-
-// Fechar a conexão com o banco de dados
-$conn->close();
-?>
+mysqli_close($conexao);
