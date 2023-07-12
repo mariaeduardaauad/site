@@ -9,8 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="shortcut icon" href="image/icon_carro-removebg-preview.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/scrollReveal.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/scrollReveal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>MiAUdote</title>
@@ -21,7 +21,7 @@
 
     <header class="header">
         <nav class="navigation">
-            <a href="#" class="logo"><img class="logo-site" src="/imagem/logo-menor.png" alt=""></a>
+            <a href="#" class="logo"><img class="logo-site" src="./imagem/logo-menor.png" alt=""></a>
             <ul>
                 <li><a href="index.html">INÍCIO</a></li>
                 <li><a href="#animais-adocao">QUERO ADOTAR</a></li>
@@ -38,17 +38,8 @@
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/imagem/fotinho-carrosel.png" class="d-block w-100 " alt="primeira foto do carrosel ">
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+                        <img src="./imagem/fotinho-carrosel.png" class="d-block w-100 " alt="primeira foto do carrosel ">
+
                     </div>
         </section>
 
@@ -64,7 +55,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="card">
-                                <img src="/imagem/james.jpg" class="card-img-top" alt="...">
+                                <img src="./imagem/james.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                 
                                     <h5 class="card-title text-roxo">James</h5>
@@ -78,7 +69,7 @@
 
                         <div class="col">
                             <div class="card">
-                                <img src="/imagem/cardgato.png" class="card-img-top" alt="...">
+                                <img src="./imagem/cardgato.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-roxo">Pantera</h5>
                                     <p class="card-text">Procurando por um gato independente e charmoso? Conheça
@@ -91,7 +82,7 @@
 
                         <div class="col">
                             <div class="card">
-                                <img src="/imagem/card3.jpg" class="card-img-top" alt="...">
+                                <img src="./imagem/card3.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-roxo">Castanha</h5>
                                     <p class="card-text">Conheça Castanha, uma cachorra de porte médio com uma
@@ -106,7 +97,7 @@
 
                         <div class="col" class="tagline">
                             <div class="card">
-                                <img src="/imagem/gatinhi1.png" class="card-img-top" alt="...">
+                                <img src="./imagem/gatinhi1.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-roxo">Pandora</h5>
                                     <p class="card-text">Pandora é uma gata preguiçosa e adorável que adora passar horas
@@ -123,7 +114,7 @@
                     <div class="row mt-5">
                         <div class="col">
                             <div class="card">
-                                <img src="/imagem/gatinho.jpg" class="card-img-top" alt="...">
+                                <img src="./imagem/gatinho.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-roxo">Linho</h5>
                                     <p class="card-text">Procurando por um amigo felino? Conheça Linho, um gato curioso
@@ -138,7 +129,7 @@
 
                         <div class="col">
                             <div class="card">
-                                <img src="/imagem/card2.webp" class="card-img-top" alt="...">
+                                <img src="./imagem/card2.webp" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-roxo">Bella</h5>
                                     <p class="card-text">Conheça Bella, uma cachorra de raça mista com uma personalidade
@@ -151,7 +142,7 @@
 
                         <div class="col">
                             <div class="card">
-                                <img src="/imagem/gatoviralata.jpg" class="card-img-top" alt="...">
+                                <img src="./imagem/gatoviralata.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-roxo">Nicolau</h5>
                                     <p class="card-text">Procurando por um gato independente e charmoso? Conheça
@@ -165,7 +156,7 @@
 
                         <div class="col">
                             <div class="card">
-                                <img src="/imagem/card4.webp" class="card-img-top" alt="...">
+                                <img src="./imagem/card4.webp" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-roxo">Apolo</h5>
                                     <p class="card-text">Se você está procurando por um cachorro para acompanhá-lo em
@@ -189,7 +180,7 @@
                         <h2 class="display-6 text-center text-light mt-5">SOBRE NÓS</h2>
                         <div class="row mt-5">
                             <div class="col-6 a">
-                                <img class="foto-sobrenos" src="imagem/foto-sobrenos.jpg" alt="">
+                                <img class="foto-sobrenos" src="./imagem/foto-sobrenos.jpg" alt="">
                             </div>
                             <div class="col-6 ">
                                 <p class="text">Bem-vindo ao nosso site de adoção de animais em Americana, SP! Somos um
@@ -357,7 +348,7 @@
     </section>
 
     </main>
-    <script src="/js/scrollReveal.js"></script>
+    <script src="./js/scrollReveal.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
