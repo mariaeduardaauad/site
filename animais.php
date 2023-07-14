@@ -14,19 +14,25 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="imagem/logo-menor.png" alt="logo do nav">
-        </div>
-        <div class="menu">
-            <ul class="nav-links">
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="animais.php">PETS</a></li>
-                <li><a href="login2.php">Administração</a></li>
-
-            </ul>
-        </div>
+<header class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid menu">
+                <a class="navbar-brand" href="#"><img src="./imagem/logo-menor.png" alt="" width="200"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="index.php">ÍNICIO</a>
+                        <a class="nav-link" href="animais.php">PETS</a>
+                        <a class="nav-link" href="#sobre-nos">SOBRE NÓS</a>
+                        <a class="nav-link" href="#contato">CONTATO</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
+    
 
     <div class="container">
         <div class="row">

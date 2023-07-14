@@ -29,11 +29,12 @@
                         <a class="nav-link active" aria-current="page" href="index.php">ÍNICIO</a>
                         <a class="nav-link" href="animais.php">PETS</a>
                         <a class="nav-link" href="#sobre-nos">SOBRE NÓS</a>
-                        <a class="nav-link disabled" href="#contato">CONTATO</a>
+                        <a class="nav-link" href="#contato">CONTATO</a>
                     </div>
                 </div>
             </div>
         </nav>
+    </header>
 
         <main>
 
